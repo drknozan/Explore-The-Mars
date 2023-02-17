@@ -1,0 +1,22 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --text_dark: #9CA3AF;
+    --text_mid: #D1D5DB;
+    --text_light: #F9FAFB;
+    --primary_1: #111111;
+    --primary_2: #1e1e1e;
+    --primary_3: #3c3c3c;
+    --primary_4: #4d4d4d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+    background-color: var(--black);
+}
