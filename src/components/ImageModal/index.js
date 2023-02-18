@@ -1,4 +1,4 @@
-import styles from "./imagemodal.module.css";
+import styles from "./imageModal.module.css";
 import Image from "next/image";
 
 const ImageModal = ({ closeModal, modal }) => {

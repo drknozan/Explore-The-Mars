@@ -1,4 +1,5 @@
 import MainLayout from '@/layouts/MainLayout'
+import Head from 'next/head';
 import '@/styles/globals.css'
 import { Orbitron } from '@next/font/google'
 import { useEffect } from 'react';
@@ -32,10 +33,15 @@ export default function App({ Component, pageProps }) {
   }, [router]);
 
   return (
-    <main className={orbitron.className}>
-      <MainLayout>
-        <Component {...pageProps} />
-      </MainLayout>
-    </main>
+    <>
+      <Head>
+        <title>Explore The Mars</title>
+      </Head>
+      <main className={orbitron.className}>
+        <MainLayout>
+          <Component {...pageProps} />
+        </MainLayout>
+      </main>
+    </>
   )
 }
