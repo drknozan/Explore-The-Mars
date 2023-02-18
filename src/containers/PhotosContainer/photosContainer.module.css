@@ -1,0 +1,103 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+}
+
+.container h3 {
+    font-size: 28px;
+    margin-bottom: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: var(--primary_mid);
+}
+
+.container h5 {
+    margin-top: 36px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--primary_dark);
+}
+
+.container a {
+    color: var(--primary_light);
+    text-decoration: none;
+}
+
+.photosContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 28px;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalButton {
+    padding: 10px 20px;
+    border: 1px solid var(--primary_light);
+    background-color: var(--black);
+    color: var(--primary_light);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.modalButton:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.modalButton:active {
+    transform: scale(0.95);
+}
+
+.modalImgContainer {
+    position: relative;
+    width: 700px;
+    height: 450px;
+}
+
+.modalImg {
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+    .photosContainer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 48px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+
+    .modalImgContainer {
+        position: relative;
+        width: 340px;
+        height: 250px;
+    }
+
+    .modalButton {
+        padding: 8px 15px;
+    }
+}

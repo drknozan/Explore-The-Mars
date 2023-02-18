@@ -1,13 +1,9 @@
 :root {
     --white: #ffffff;
     --black: #000000;
-    --text_dark: #9CA3AF;
-    --text_mid: #D1D5DB;
-    --text_light: #F9FAFB;
-    --primary_1: #111111;
-    --primary_2: #1e1e1e;
-    --primary_3: #3c3c3c;
-    --primary_4: #4d4d4d;
+    --primary_dark: #9CA3AF;
+    --primary_mid: #D1D5DB;
+    --primary_light: #F9FAFB;
 }
 
 * {

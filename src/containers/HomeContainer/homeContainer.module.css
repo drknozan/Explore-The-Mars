@@ -6,7 +6,7 @@
 .container hr {
     border: 0;
     height: .5px;
-    background-image: linear-gradient(to right, var(--black), var(--text_light), var(--black));
+    background-image: linear-gradient(to right, var(--black), var(--primary_light), var(--black));
     margin: 48px 0;
 }
 
@@ -32,7 +32,7 @@
 
 .bannerText .typeWrap {
     font-size: 26px;
-    color: var(--text_light);
+    color: var(--primary_light);
 }
 
 .bannerText h1 {
@@ -41,7 +41,7 @@
 
 .bannerText h2 {
     font-size: 14px;
-    color: var(--text_dark);
+    color: var(--primary_dark);
 }
 
 .bannerButton  {
@@ -49,9 +49,9 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    border: .5px solid var(--text_light);
+    border: .5px solid var(--primary_light);
     background-color: transparent;
-    color: var(--text_light);
+    color: var(--primary_light);
     font-size: 12px;
     padding: 8px 18px 8px 30px;
     cursor: pointer;
@@ -94,7 +94,7 @@
         font-size: 12px;
     }
 
-    .banner img {
+    .imgContainer {
         display: none;
     }
 }
