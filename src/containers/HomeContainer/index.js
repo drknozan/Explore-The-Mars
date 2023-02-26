@@ -39,13 +39,13 @@ const HomeContainer = () => {
                     </Link>
                 </div>
                 <div className={styles.imgContainer}>
-                    <Image src="/astronaut.jpg" alt="Astronaut" fill></Image>
+                    <Image priority unoptimized src="/astronaut.jpg" alt="Astronaut" fill></Image>
                 </div>
             </div>
             <hr />
             <div className={styles.banner}>
                 <div className={styles.imgContainer}>
-                    <Image src="/mars.jpg" alt="Mars" fill></Image>
+                    <Image priority unoptimized src="/mars.jpg" alt="Mars" fill></Image>
                 </div>
                 <div className={styles.bannerText}>
                     <h1>MARS.</h1>
