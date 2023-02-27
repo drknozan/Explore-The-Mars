@@ -16,7 +16,7 @@ const Header = () => {
             <div className={displayMenu ? styles.menu_active : styles.menu}>
                 <Link href="/">Home</Link>
                 <Link href="/rover-photos">Mars Photos</Link>
-                <Link href="#">Contact</Link>
+                <Link href="/#contact">Contact</Link>
             </div>
             <MdMenu className={styles.toggle} size={32} onClick={() => setDisplayMenu(!displayMenu)} />
         </div>

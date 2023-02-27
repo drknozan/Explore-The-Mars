@@ -4,6 +4,7 @@ import { useRef, useEffect } from "react";
 import Typed from "typed.js";
 import Link from "next/link";
 import Image from "next/image";
+import Contact from "@/components/Contact";
 
 const HomeContainer = () => {
     const el = useRef(null);
@@ -55,6 +56,8 @@ const HomeContainer = () => {
                     </Link>
                 </div>
             </div>
+            <hr></hr>
+            <Contact />
         </div>
     )
 }
