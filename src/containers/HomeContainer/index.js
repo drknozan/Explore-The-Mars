@@ -34,7 +34,7 @@ const HomeContainer = () => {
                     <div className={styles.typeWrap}>
                         <span style={{ whiteSpace: 'pre' }} ref={el} />
                     </div>
-                    <h2>Photos coming from Curiosity hover.</h2>
+                    <h2>Photos coming from Curiosity rover.</h2>
                     <Link href="/rover-photos" className={styles.bannerButton}>
                         Start <MdChevronRight size={28} />
                     </Link>
