@@ -1,5 +1,4 @@
 import styles from './photosItem.module.css';
-import Image from 'next/image';
 
 const PhotosItem = ({
   id,
@@ -12,7 +11,7 @@ const PhotosItem = ({
   return (
     <div className={styles.container}>
       <div className={styles.imgContainer} onClick={() => showModal(imgSrc)}>
-        <Image src={imgSrc} width={400} height={400} alt="RoverPhoto"></Image>
+        <img src={imgSrc} width={400} height={400} alt="RoverPhoto"></img>
       </div>
       <div className={styles.infos}>
         <p>Rover Name: {roverName}</p>
