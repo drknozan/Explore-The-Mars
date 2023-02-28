@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import NProgress from 'nprogress';
 import '@/styles/nprogress.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const orbitron = Orbitron({ weight: '400', subsets: ['latin'] });
 
@@ -44,6 +45,7 @@ export default function App({ Component, pageProps }) {
       <main className={orbitron.className}>
         <MainLayout>
           <Component {...pageProps} />
+          <Analytics />
         </MainLayout>
       </main>
     </>
