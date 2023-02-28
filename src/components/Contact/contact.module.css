@@ -1,32 +1,32 @@
 .contactContainer {
-    height: 320px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .contactContainer h1 {
-    font-size: 24px;
-    letter-spacing: 2px;
-    color: var(--primary_light);
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: var(--primary_light);
 }
 
 .emailContainer {
-    display: flex;
-    align-items: center;
-    color: var(--primary_dark);
-    margin-top: 16px;
+  display: flex;
+  align-items: center;
+  color: var(--primary_dark);
+  margin-top: 16px;
 }
 
 .emailContainer p {
-    font-size: 12px;
-    margin-left: 12px;
-    letter-spacing: 2px;
+  font-size: 12px;
+  margin-left: 12px;
+  letter-spacing: 2px;
 }
 
 @media screen and (max-width: 600px) {
-    .emailContainer p {
-        font-size: 10px;
-    }
+  .emailContainer p {
+    font-size: 10px;
+  }
 }

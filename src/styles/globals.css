@@ -1,18 +1,18 @@
 :root {
-    --white: #ffffff;
-    --black: #000000;
-    --primary_dark: #9CA3AF;
-    --primary_mid: #D1D5DB;
-    --primary_light: #F9FAFB;
+  --white: #ffffff;
+  --black: #000000;
+  --primary_dark: #9ca3af;
+  --primary_mid: #d1d5db;
+  --primary_light: #f9fafb;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    min-height: 100%;
-    background-color: var(--black);
+  min-height: 100%;
+  background-color: var(--black);
 }
