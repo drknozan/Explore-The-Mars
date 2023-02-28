@@ -12,4 +12,4 @@ This repo contains source code of my "Explore The Mars" project.
 
 ## :rocket: LIVE
 
-You can view this project on: [explore-the-mars.vercel.app](explore-the-mars.vercel.app)
+You can view this project on: [explore-the-mars.vercel.app](https://explore-the-mars.vercel.app)
