@@ -54,7 +54,7 @@ const HomeContainer = () => {
         </div>
         <div className={styles.bannerText}>
           <h1>MARS.</h1>
-          <h2>Photos from seven days ago, daily updated.</h2>
+          <h2>Photos from five days ago, daily updated.</h2>
           <Link href="/rover-photos" className={styles.bannerButton}>
             Explore <MdChevronRight size={28} />
           </Link>

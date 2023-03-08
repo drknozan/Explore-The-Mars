@@ -3,7 +3,7 @@ export default function getLastWeekDate() {
 
   const last = new Date(date.getTime() - 7 * 24 * 60 * 60 * 1000);
 
-  const day = last.getDate();
+  const day = last.getDate() + 2;
   const month = last.getMonth() + 1;
   const year = last.getFullYear();
 
