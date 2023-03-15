@@ -19,7 +19,8 @@ const PhotosContainer = ({ photos }) => {
     return (
       <div className={styles.emptyContainer}>
         <h1>
-          Unfortunately, no photos found for today. You can try again tomorrow.
+          Unfortunately, no photos have arrived from the Curiosity hover for
+          today. You can try again tomorrow.
         </h1>
       </div>
     );
