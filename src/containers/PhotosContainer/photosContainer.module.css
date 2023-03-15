@@ -80,6 +80,19 @@
   object-fit: contain;
 }
 
+.emptyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyContainer h1 {
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: var(--primary_mid);
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .photosContainer {
     display: flex;
@@ -99,5 +112,9 @@
 
   .modalButton {
     padding: 8px 15px;
+  }
+
+  .emptyContainer h1 {
+    font-size: 12px;
   }
 }

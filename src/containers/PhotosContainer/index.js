@@ -15,6 +15,16 @@ const PhotosContainer = ({ photos }) => {
     setModal(null);
   };
 
+  if (photos.length === 0) {
+    return (
+      <div className={styles.emptyContainer}>
+        <h1>
+          Unfortunately, no photos found for today. You can try again tomorrow.
+        </h1>
+      </div>
+    );
+  }
+
   return (
     <>
       {modal && <ImageModal closeModal={closeModal} modal={modal} />}
